@@ -1,0 +1,39 @@
+.carousel-container {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.image-container {
+  position: relative;
+}
+
+.carousel-image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.prev-button {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.next-button {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
+
+.description-container {
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(5px);
+  padding: 10px;
+  box-sizing: border-box;
+  color: #fff;
+  text-align: center;
+}

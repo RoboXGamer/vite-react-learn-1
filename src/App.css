@@ -1,0 +1,32 @@
+:root {
+  color-scheme: light dark;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+main {
+  padding-inline: 2rem;
+}
+body {
+  margin: 0;
+  padding: 1rem;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  margin-bottom: 0.25rem;
+  max-inline-size: var(--size-header-2);
+}
+
+section {
+  margin-block: 1rem;
+  padding-block: 1.5rem;
+}
