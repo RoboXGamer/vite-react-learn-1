@@ -1,32 +1,40 @@
-:root {
-  color-scheme: light dark;
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
+/* CSS RESET */
+
+* {
+  margin: 0;
+}
+html:focus-within {
+  scroll-behavior: smooth;
+}
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+}
+/* Make images easier to work with */
+img,
+picture,
+svg {
+  max-width: 100%;
+  display: block;
 }
 
 main {
   padding-inline: 2rem;
-}
-body {
-  margin: 0;
-  padding: 1rem;
-  min-width: 320px;
-  min-height: 100vh;
+  text-align: center;
 }
 
 h1 {
-  font-size: 3em;
+  font-size: 2rem;
+  color: #ffffff;
 }
 
 h2 {
   margin-bottom: 0.25rem;
-  max-inline-size: var(--size-header-2);
 }
 
 section {
-  margin-block: 1rem;
   padding-block: 1.5rem;
+}
+
+:root {
 }
